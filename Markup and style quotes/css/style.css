@@ -1,0 +1,26 @@
+h1 {
+    font-size: 50px;
+    font-style: italic;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: "Courier Prime", monospace;
+}
+
+.speaker{
+    font-weight: bold;
+}
+
+.aside{
+    color: rgb(172, 161, 161);
+    font-style: italic
+}
+
+.venkman { color: rgb(38, 159, 239); }
+.stantz { color: #ecef14; }
+.mayor {color: rgb(62, 220, 62);}
+.barrett {color: rgb(241, 43, 76);}
+.spengler {color: rgb(211, 59, 211)}
+.zeddemore {color: orange}
