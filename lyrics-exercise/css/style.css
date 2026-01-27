@@ -1,0 +1,30 @@
+h1 {
+    font-size: 60px;
+    font-style: italic;
+    color: rgb(159, 17, 17)
+}
+
+h3 {
+    font-size: 25px;
+}
+
+body {
+  background-color: rgb(236, 201, 142);
+  color: rgb(0, 0, 0);
+  font-family: fantasy
+  padding-left: 60px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 60px;
+}
