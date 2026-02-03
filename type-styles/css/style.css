@@ -1,0 +1,115 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1.6;
+    color: #222;
+    max-width: 900px;
+    background: #eb96c2;
+    margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: min(900px, 92vw);
+  margin: 48px auto;
+  padding: 0 12px;
+}
+
+.page-header {
+  background: #ffffff;
+  border: 1px solid #e6e8ee;
+  border-radius: 14px;
+  padding: 22px 24px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  margin-bottom: 18px;
+}
+
+h1 {
+  font-size: 1.9rem;
+  margin: 0 0 6px 0;
+  letter-spacing: -0.02em;
+}
+
+.summary {
+  margin: 0;
+  color: #5b616e;
+  font-size: 1rem;
+}
+
+.summary-label {
+  font-weight: 500;
+  color: #3e4452;
+}
+
+.dot {
+  margin: 0 10px;
+  color: #a1a7b3;
+}
+
+.group {
+  background: #ffffff;
+  border: 1px solid #f7ccec;
+  border-radius: 14px;
+  padding: 18px 24px 14px;
+  margin: 16px 0;
+}
+
+.group h2 {
+  margin: 0 0 12px 0;
+  font-size: 1.15rem;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #404656;
+}
+
+.sample {
+  margin: 10px 0;
+  font-size: 1.12rem;
+  line-height: 1.45;
+  display: flex;
+  gap: 14px;
+  align-items: baseline;
+}
+
+.label {
+  width: 120px;
+  flex: 0 0 120px;
+  font-size: 0.95rem;
+  color: #6a7282;
+  font-weight: 500;
+}
+
+.weight-300 { font-weight: 300; }
+.weight-400 { font-weight: 400; }
+.weight-500 { font-weight: 500; }
+.weight-700 { font-weight: 700; }
+
+.style-normal { font-style: normal; }
+.style-italic { font-style: italic; }
+
+.space-none { letter-spacing: 0px; }
+.space-wide { letter-spacing: 0.2em; }
+.space-tight { letter-spacing: -0.05em; }
+
+.transform-none { text-transform: none; }
+.transform-upper { text-transform: uppercase; }
+.transform-lower { text-transform: lowercase; }
+.transform-cap { text-transform: capitalize; }
+
+.deco-none { text-decoration: none; }
+.deco-underline { text-decoration: underline; }
+.deco-line { text-decoration: line-through; }
+.deco-over { text-decoration: overline; }
+
+@media (max-width: 520px) {
+  .sample {
+    flex-direction: column;
+    gap: 4px;
+  }
+  .label {
+    width: auto;
+    flex: none;
+  }
+}
