@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Archivo Narrow", sans-serif;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 80px;
+  line-height: 1;
+  margin-bottom: 16px;
+  font-weight: 700;
+}
+
+h2 {
+  text-align: center;
+  font-size: 36px;
+  line-height: 1;
+  margin-bottom: 24px;
+  font-weight: 600;
+}
+
+h3 {
+  text-align: center;
+  line-height: 1;
+  font-size: 40px;
+  margin-bottom: 40px;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 20px;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+p {
+  margin-bottom: 16px;
+}
+
+header {
+  background-image: url("https://img.freepik.com/premium-photo/peaceful-sunrise-still-lake-with-mountain-scenery-background_1113121-3911.jpg?semt=ais_user_personalization&w=740&q=80");
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  padding: 172px 0;
+  color: #fff;
+  position: relative;
+}
+
+section.photo-grid {
+  clear: both;
+}
+
+.photo-grid ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 23px;
+}
+
+.photo-grid li {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  column-gap: 12px;
+  align-items: start;
+}
+
+header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+header .column {
+  position: relative;
+  z-index: 1;
+}
+
+.subheading {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+div.column {
+  width: 960px;
+  margin: 0 auto;
+}
+
+section {
+  padding: 48px 0 39px;
+}
+
+.dark-bg {
+  background-color: #1e272e;
+  color: #fff;
+}
+
+.top-image {
+  float: right;
+  border: 1px solid #fff;
+  margin-left: 38px;
+  margin-bottom: 38px;
+  width: 400px;
+  height: auto;
+}
+
+.intro .column::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.white-bg {
+  background-color: #fff;
+  color: #1e272e;
+}
+
+section.photo-grid {
+  padding-bottom: 64px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 23px;
+  margin-top: -2px;
+}
+
+li {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  align-items: start;
+}
+
+li img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+li > div {
+  padding-left: 12px;
+  padding-right: 22px;
+}
+
+li p {
+  margin-bottom: 0;
+}
+
+section.final-section {
+  background-color: rgb(216, 224, 255);
+  padding-bottom: 100px;
+}
+
+p.final-paragraph {
+  font-size: 26px;
+  text-align: center;
+  margin: 0 auto;
+  width: 703px;
+  line-height: 1.37;
+}
+
+footer {
+  padding-top: 42px;
+  background-color: rgb(2, 0, 104);
+  padding-bottom: 24px;
+  color: #fff;
+}
+
+footer p {
+  margin-bottom: 0;
+  text-align: left;
+}
+
+.photo-grid {
+  clear: both;
+}
+
+.photo-grid .column {
+  overflow: auto; /* contains any accidental float influence */
+}
+
+.photo-grid ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 23px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.photo-grid li {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  column-gap: 12px;
+  align-items: start;
+}
+
+.photo-grid li img {
+  display: block;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+section::after {
+  content: "";
+  display: block;
+  clear: both;
+}
