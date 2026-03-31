@@ -1,0 +1,15 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1.6;
+    max-width: 900px;
+    padding: 18px 24px 14px;
+}
+
+
+img {
+    height: 600px;
+}
+
+p{
+    margin: 0;
+}
